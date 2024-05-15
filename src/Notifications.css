@@ -1,0 +1,35 @@
+/* src/Notifications.css */
+.Notifications {
+    border: 2px solid crimson;
+    padding: 10px;
+    border-style: dashed;
+  }
+/* src/Notifications.css */
+.Notifications ul li[data-priority="default"] {
+    color: blue;
+  }
+  
+  .Notifications ul li[data-priority="urgent"] {
+    color: red;
+  }
+
+  .close-icon {
+    height:fit-content
+  }
+
+  /* src/Notifications.css */
+.close-button {
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+    width: 20px; /* Adjust the width as needed */
+    height: 20px; /* Adjust the height as needed */
+    overflow: hidden; /* Crop the image */
+  }
+  
+  .close-button img {
+    width: 100%;
+    height: auto;
+  }
+  
